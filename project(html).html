@@ -1,23 +1,69 @@
 <!DOCTYPE html>
 <head>
-    <title>this is my page </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,
+    wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>tech store</title>
 </head>
+    
+<link rel="stylesheet" href="style.css" />
 
 <body>
-    <div>
-        <div><h1>Game over</h1>
-            <a href="htpps://google.com" target="_blank" >Home</a>
-            <a>About</a>
-            <a>shop</a>
+    <!-- HEADER -->
+    <div class="header" >
+        <img src = "images/logo.png" 
+            width="100"
+        />
+        <div class="header-link">
+            <a href="#">Home</a>
+            <a href="#">Shop</a>
+            <a href="#">Contact</a>
+            <a href="#">About</a>
+            <button class="btn">Sign in</button>
         </div>
-
     </div>
-    <br />
-    <div>content</div>
-    <img src="https://m.media-amazon.com/images/I/912gn5T5vmL._AC_UF1000,1000_QL80_.jpg" 
-    width="200"
-    />
-    <hr />
-    <br />
 
+    <!-- page landing-->
+     <div class="page-landing">
+        <div class="page-landing-left-section" >
+            <span>Welcome to tech store </span>
+            <h1>Best gamming site ever </h1>
+            <p>tech store is free Bootstrap 5 HTML CSS website template for your
+            gaming websites. You can download and use this layout for commercial
+            purposes. Please tell your friends about TemplateMo.</p>
+            <div class="page-landing-button">
+                <input placeholder="start typing..."/>
+                <button class="btn">search</button>
+            </div>
+        </div>
+        <div class="page-landing-image">
+            <img src="images/banner-image.jpg" />
+        </div>
+     </div>
+
+     <!--Trender container-->
+     <div class="trending-container">
+        <div>
+            <span>Trending</span>
+            <div class="trending-header">
+                <h1>Trending game</h1>
+                <button class="btn" >view all</button>
+            </div>
+        </div>
+        <div class="trending-cards">
+            <div class="cards">
+                <img src="images/trending-01.jpg" />
+                <div class="card-info">
+                    <div class="card-name">
+                        <p>Action</p>
+                        <h3>Assasins creed </h3>
+                    </div >
+                    <a>
+                        <img src="images/online-shopping.png" />
+                    </a>
+                </div>
+            </div>
+        </div>
+     </div>
 </body>
